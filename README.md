@@ -1,14 +1,46 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+## 🌍💰 CurrencyApp – A Compose Multiplatform Currency Converter
+**Effortlessly convert and track exchange rates across multiple currencies!**
+---
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+## ✨ Features  
+✅ Real-time exchange rates 📊  
+✅ Multi-currency support 💱  
+✅ Offline mode for last fetched rates 📡  
+✅ Beautiful Jetpack Compose UI 🎨  
+✅ Dark & Light mode support 🌗  
+✅ Runs on Android and iOS 🚀  
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+---
 
+## 🚀 Tech Stack  and 📦 Third-Party Libraries  
+- **Kotlin Multiplatform (KMP)** – Cross-platform development  
+- **Jetpack Compose Multiplatform** – UI framework  
+- **Ktor** – Networking  
+- **mongodb-realm** – Database  
+- **Coroutines & Flow** – Async programming  
+- **Koin** – Dependency Injection
+- **multiplatform-settings** – managing prefrences for both android and ios local storage
+- **voyager** – A multiplatform navigation library
+- **Stately** – Stately is a state utility library to facilitate state management in Kotlin Multiplatform
+---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## 🛠️ Installation & Setup  
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/Mostafa2293/CurrencyApp.git
+cd CurrencyApp
+```
+2️⃣ Open in Android Studio (with KMP support)  
+3️⃣ Run on Android, iOS, or Desktop  
+
+---
+
+## 🎥 Demo  
+_(Add GIFs/screenshots of the app in action)_  
+
+---
+
+## 📜 License  
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
+
+---
